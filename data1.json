@@ -1,0 +1,7 @@
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":21},"port":"P1","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-05-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":22},"port":"P1","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-06-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":42},"port":"P1","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-06-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":23},"port":"P2","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-05-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":23},"port":"P2","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-06-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":53},"port":"P2","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-06-02T11:00:00.000Z","type":"B"}}
+{"data":{"risk":{"vector":[{"rate":3.77,"type":"float"},{"rate":2,"type":"fixed"}],"eff":63},"port":"P2","id":{"k":"ABC123","domain":"X"}},"common":{"td":"2021-06-02T11:00:00.000Z","type":"B"}}
