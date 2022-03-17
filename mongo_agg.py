@@ -19,13 +19,17 @@ def main(args):
                         action='store_true',  # boolean
                         help='TBD')
 
-    parser.add_argument('--stringOption', 
-                        metavar='zzz',
-                        help='more help')
+    parser.add_argument('--pw', 
+                        metavar='password',
+                        help='password for login')
 
     rargs = parser.parse_args()
 
-    client = MongoClient("mongodb://localhost:37017")
+    connstr = "mongodb://admax:%s@test0-shard-00-00-rrpjf.mongodb.net:27017,test0-shard-00-01-rrpjf.mongodb.net:27017,test0-shard-00-02-rrpjf.mongodb.net:27017/test?ssl=true&replicaSet=test0-shard-0&authSource=admin&retryWrites=true&w=majority" % rargs.pw
+
+    #connstr = "mongodb://localhost:37017"
+
+    client = MongoClient(connstr)
     db = client.testX
 
     db.foo.drop()
